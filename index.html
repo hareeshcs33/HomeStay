@@ -1,0 +1,378 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="veiwport" content="width=device-width,initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>First Bootstrap Project</title>
+
+		<script src="libraries/jquery-3.2.1.js"></script>
+
+		<link rel="stylesheet" href="libraries/bootstrap-3.3.7-dist/css/bootstrap.css">		
+		<script src="libraries/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+		<script src="scripts/myscript.js"></script>
+
+    </head>
+	<body>
+
+		<div class="container" id="containerfluiddiv1">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="brand">
+						<img src="images/homestayLogo.png" alt="Logo" class="img-responsive" id="homestaylogo"/>
+					</div>
+					<form>
+						<ul class="nav nav-tabs nav-stacked text-center">
+							<li class="dropright">
+								<a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" 
+								data-animations="fadeInDown" aria-haspopup="false"
+								 aria-expanded="true" href="#">Accommodations
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+									<li class="dropdown-item text-center"><a href="#">Action</a></li>
+									<li class="dropdown-item text-center"><a href="#">Action</a></li>
+									<li class="dropdown-item text-center"><a href="#">Action</a></li>
+									<li class="dropdown-item text-center"><a href="#">Action</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Tariff</a></li>
+							<li><a href="#">Around Us</a></li>
+							<li><a href="#">Activities</a></li>
+							<li><a href="#">Gallery</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</form>
+					<div class="text-center">
+						<h3>For Reservations</h3>
+						<span>Contact Us</span>
+						<span><b>call between 10am to 10pm</b></span>
+						<div class="number">
+							<span class="glyphicon glyphicon-earphone"></span><span class="tel-number">+91 1234 123 123</span>
+						</div>
+						<div>
+							<button type="btn" class="btn btn-info" id="checkAv">Check Availability</button>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-md-9 col-md-offset-0">
+					<div id="imageCarousel" class="carousel slide" data-interval="2000" data-ride="carousel" data-wrap="true">
+						<ol class="carousel-indicators">
+							<li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#imageCarousel" data-slide-to="1"></li>
+							<li data-target="#imageCarousel" data-slide-to="2"></li>
+							<li data-target="#imageCarousel" data-slide-to="3"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="item active carouselDiv">
+								<img src="images/image5.jpg" class="img-responsive"/>
+								<div class="carousel-caption">
+									<h3>image one</h3>
+									<p>Beautiful image</p>
+								</div>
+							</div>
+							<div class="item carouselDiv">
+								<img src="images/image2.jpg" class="img-responsive"/>
+								<div class="carousel-caption">
+									<h3>image Two</h3>
+									<p>Beautiful image</p>
+								</div>
+							</div>
+							<div class="item carouselDiv">
+								<img src="images/image3.png" class="img-responsive"/>
+								<div class="carousel-caption">
+									<h3>image Three</h3>
+									<p>Beautiful image</p>
+								</div>
+							</div>
+							<div class="item carouselDiv">
+								<img src="images/image4.jpg" class="img-responsive"/>
+								<div class="carousel-caption">
+									<h3>image Three</h3>
+									<p>Beautiful image</p>
+								</div>
+							</div>
+						</div>
+						<a href="#imageCarousel" class="carousel-control left" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a href="#imageCarousel" class="carousel-control right" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<div class="container" id="containerDiv3">
+			<div class="row">
+				<div class="col-sm-5 col-md-offset-1">
+					<img src="images/image1.jpg" alt="" />
+				</div>
+				<div class=" col-md-5 col-md-offset-1 text-center">
+					<div>
+						<h2><b>THE SWEET HOMESTAY</b></h2>
+					</div>
+					<div>
+						<h3>Luxury of a Heritage from the colonial times in Chikmaglur</h3>
+					</div>
+					<div>
+						<p>Coffee Bean stay, located 20 kilometers from Chikmagalur 
+							covered with nature and greenery at a height of 3900 ft above sea level surrounded by hills. 
+							The 100 years old heritage is nestled in the lush green Western Ghats</p>
+					</div>
+					<button type="btn" class="btn btn-info"><b>Check Availability</b></button>
+				</div>				
+			</div>
+		</div>	
+
+		<div class="container" id="containerDiv4">
+			<div class="text-center">
+				<div>
+					<h4>RELAX AND ENJOY</h4>
+				</div>
+				<div>
+					<h2><b>FACILITIES</b></h2>
+				</div>		
+			</div>			
+			<div class="row">				
+				<div class=" col-md-5 col-md-offset-1">					
+					<form>
+						<ul class="nav nav-tabs nav-stacked text-center">
+							<li><a href="#">100 years old heritage stay</a></li>
+							<li><a href="#">100 years old heritage stay</a></li>
+							<li><a href="#">100 years old heritage stay</a></li>
+							<li><a href="#">100 years old heritage stay</a></li>
+							<li><a href="#">100 years old heritage stay</a></li>
+							<li><a href="#">100 years old heritage stay</a></li>
+							<li><a href="#">100 years old heritage stay</a></li>
+						</ul>
+					</form>					
+				</div>
+				<div class="col-sm-5 col-md-offset-1">
+					<img src="images/image2.jpg" alt="" />
+				</div>				
+			</div>
+		</div>
+		
+	<div class="container" id="containerDiv5">
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="imageCarousel" class="carousel slide" data-interval="2000" data-ride="carousel" data-wrap="true">
+					<ol class="carousel-indicators">
+						<li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#imageCarousel" data-slide-to="1"></li>
+						<li data-target="#imageCarousel" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<div class="row">
+								<div class="col-xs-4">
+									<img src="images/image14.jpg" class="img-responsive"/>
+									<div class="carousel-caption">
+										<h3>image one</h3>
+										<p>Beautiful image</p>
+									</div>
+								</div>
+								<div class="col-xs-4">
+									<img src="images/image6.jpg" class="img-responsive"/>
+									<div class="carousel-caption">
+										<h3>image one</h3>
+										<p>Beautiful image</p>
+									</div>
+								</div>
+								<div class="col-xs-4">
+									<img src="images/image7.jpg" class="img-responsive"/>
+									<div class="carousel-caption">
+										<h3>image one</h3>
+										<p>Beautiful image</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+						<div class="item">
+							<div class="row">
+								<div class="col-xs-4">
+									<img src="images/image8.jpg" class="img-responsive"/>
+									<div class="carousel-caption">
+										<h3>image one</h3>
+										<p>Beautiful image</p>
+									</div>
+								</div>
+								<div class="col-xs-4">
+									<img src="images/image9.jpg" class="img-responsive"/>
+									<div class="carousel-caption">
+										<h3>image one</h3>
+										<p>Beautiful image</p>
+									</div>
+								</div>
+								<div class="col-xs-4">
+									<img src="images/image10.jpg" class="img-responsive"/>
+									<div class="carousel-caption">
+										<h3>image one</h3>
+										<p>Beautiful image</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="row">
+								<div class="col-xs-4">
+									<img src="images/image11.jpg" class="img-responsive"/>
+									<div class="carousel-caption">
+										<h3>image one</h3>
+										<p>Beautiful image</p>
+									</div>
+								</div>
+								<div class="col-xs-4">
+									<img src="images/image12.jpg" class="img-responsive"/>
+									<div class="carousel-caption">
+										<h3>image one</h3>
+										<p>Beautiful image</p>
+									</div>
+								</div>
+								<div class="col-xs-4">
+									<img src="images/image13.jpg" class="img-responsive"/>
+									<div class="carousel-caption">
+										<h3>image one</h3>
+										<p>Beautiful image</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#imageCarousel" class="carousel-control left" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a href="#imageCarousel" class="carousel-control right" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div>
+			</div>	
+		</div>
+	</div>		
+
+
+	<div class="container-fluid" id="containerDiv6">
+		<div class="text-center">
+			<div>
+				<h2><i>Enjoy & Remember Great Times with us</i></h2>
+			</div>
+			<div>
+				<h4>every single moment will be a guaranteed treasure</h4>
+			</div>
+			<div>
+				<button type="btn" class="btn btn-info"><b>Get In Touch</b></button>
+			</div>
+		</div>
+	</div>
+
+		
+	<div class="container-fluid" id="containerDiv7">
+		<div class="text-center">
+			<div>
+				<h4>RECYCLED & REUSED</h4>
+			</div>
+			<div>
+				<h2>ECO-FRIENDLY STAY</h2>
+			</div>
+			<div>
+				<p>At Coffee Bean stay we have developed a culture to love and respect nature. 
+					All the food we eat and the energy(electrical, bio-gas, solar) we use are processed in-house. 
+					We also make use of the rich oxygen available in this beautiful lush green paradise.</p>
+			</div>
+			<div>
+				<button type="btn" class="btn btn-info"><b>Know More</b></button>
+			</div>
+		</div>
+	</div>
+
+		<div class="container" id="containerfluiddiv2">
+			<div class="text-center">
+				<div>
+					<h4>OUR GUESTS SPEAK</h4>
+				</div>
+				<div>
+					<h2>TESTIMONIALS</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3 text-center border">
+					<img src="images/image1.jpg" class="img-responsive img-circle"/>
+					<div class="data">
+						<h3>image1</h3>
+						<p>content goes here content goes here content goes here
+							content goes here content goes here content goes here
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-3 text-center border">
+					<img src="images/image2.jpg" class="img-responsive img-circle" />
+					<div class="data">
+						<h3>image2</h3>
+						<p>content goes here content goes here content goes here
+							content goes here content goes here content goes here
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-3 text-center border">
+					<img src="images/image3.png" class="img-responsive img-circle" />
+					<div class="data">
+						<h3>image3</h3>
+						<p>content goes here content goes here content goes here
+							content goes here content goes here content goes here
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-3 text-center border">
+					<img src="images/image5.jpg" class="img-responsive img-circle" />
+					<div class="data">
+						<h3>image4</h3>
+						<p>content goes here content goes here content goes here
+							content goes here content goes here content goes here
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid" id="containerDiv8">
+			<div class="row">
+				<div class="col-sm-4 ">
+					<div class="data">
+						<h3>Contact Us</h3>
+						<p>
+							content goes here content goes here content goes here
+							content goes here content goes here content goes here
+							content goes here content goes here content goes here
+							content goes here content goes here content goes here
+						</p>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<img src="images/homestayLogo.png" class="img-responsive" />
+				</div>
+				<div class="col-sm-4">
+					<img src="images/mylogo.png" class="img-responsive" />
+				</div>
+			</div>
+			<div class="text-center contact">
+				<div>
+					<span class="">+91 1234 123 123 | 9876 543 543</span>
+				</div>
+				<div>
+					<span>hskoppal@homestay.com</span>
+				</div>
+			</div>	
+		</div>
+
+		<div class="footer">
+			<div class="footer text-center">
+				&copy;rights_hareesh@mail.co.com
+			</div>
+		</div>
+	</body>
+</html>
